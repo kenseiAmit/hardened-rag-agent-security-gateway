@@ -1,0 +1,32 @@
+================================================================================
+EVIDENCE 01: KNOWLEDGE BASE DATA SOURCE SYNC & VECTOR EMBEDDING
+Component: ChromaDB Local Vector Store (northstar_knowledge_base)
+Timestamp: 2026-10-18T22:35:00Z
+Status: SUCCESS — 0 Errors, 6/6 Documents Synchronized
+================================================================================
+
+$ python3 load_knowledge_base.py --reset
+$ python3 load_knowledge_base.py --with-malicious
+
+Loading Northstar knowledge base...
+  [Reset] Existing collection deleted.
+  Added: northstar-ai-policy                      (Northstar AI Usage Policy)
+  Added: security-incident-proc                   (Security Incident Reporting Procedure)
+  Added: acceptable-use-guidelines                (Research Agent Acceptable Use Guidelines)
+
+Knowledge base ready. 3 documents loaded.
+Loading Northstar knowledge base...
+  Added: northstar-ai-policy                      (Northstar AI Usage Policy)
+  Added: security-incident-proc                   (Security Incident Reporting Procedure)
+  Added: acceptable-use-guidelines                (Research Agent Acceptable Use Guidelines)
+
+Loading malicious documents (for indirect injection testing)...
+  Added: malicious-001-override                   (Malicious Doc 1: Explicit Override)
+  Added: malicious-002-subtle                     (Malicious Doc 2: Subtle Diagnostic Framing)
+  Added: malicious-003-metadata                   (Malicious Doc 3: Embedded Metadata Instructions)
+
+Knowledge base ready. 6 documents loaded.
+/workspace/hardened-rag-agent-security-gateway/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/workspace/hardened-rag-agent-security-gateway/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
