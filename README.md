@@ -1,10 +1,14 @@
-# Northstar Research Agent: OWASP LLM Red-Teaming & Defense-in-Depth RAG Security Gateway
+<div align="center">
+  <img src="assets/hero-banner.svg" alt="Hardened Local RAG Security Gateway" width="100%" />
+  <br/><br/>
+  ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+  ![OWASP LLM](https://img.shields.io/badge/Security-OWASP%20LLM%20Top%2010-DC2626?style=flat-square)
+  ![Regression](https://img.shields.io/badge/Validation-8%2F8%20Tests%20Passing%20(100%25)-16A34A?style=flat-square)
+  ![Runtime](https://img.shields.io/badge/Stack-ChromaDB%20%2B%20Ollama%20Mistral--7B-0D9488?style=flat-square)
+  ![License](https://img.shields.io/badge/License-MIT-slate?style=flat-square)
+</div>
 
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-![OWASP LLM](https://img.shields.io/badge/Security-OWASP%20LLM%20Top%2010-DC2626?style=flat-square)
-![Regression](https://img.shields.io/badge/Validation-8%2F8%20Tests%20Passing%20(100%25)-16A34A?style=flat-square)
-![Runtime](https://img.shields.io/badge/Stack-ChromaDB%20%2B%20Ollama%20Mistral--7B-0D9488?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-slate?style=flat-square)
+---
 
 Offensive exploit suite and 5-layer defense-in-depth security gateway for a local **ChromaDB + Mistral-7B (`ollama`)** tool-calling RAG assistant—neutralizing direct role-override jailbreaks, indirect RAG vector poisoning, and autonomous HR database task hijacking while preserving `100%` benign retrieval and authorized tool utility.
 
