@@ -1,11 +1,13 @@
 <div align="center">
   <img src="assets/hero-banner.svg" alt="Hardened Local RAG Security Gateway" width="100%" />
   <br/><br/>
-  ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-  ![OWASP LLM](https://img.shields.io/badge/Security-OWASP%20LLM%20Top%2010-DC2626?style=flat-square)
-  ![Regression](https://img.shields.io/badge/Validation-8%2F8%20Tests%20Passing%20(100%25)-16A34A?style=flat-square)
-  ![Runtime](https://img.shields.io/badge/Stack-ChromaDB%20%2B%20Ollama%20Mistral--7B-0D9488?style=flat-square)
-  ![License](https://img.shields.io/badge/License-MIT-slate?style=flat-square)
+  <p>
+    <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python" />
+    <img src="https://img.shields.io/badge/Security-OWASP%20LLM%20Top%2010-DC2626?style=flat-square" alt="OWASP LLM" />
+    <img src="https://img.shields.io/badge/Validation-8%2F8%20Tests%20Passing%20%28100%25%29-16A34A?style=flat-square" alt="Regression" />
+    <img src="https://img.shields.io/badge/Stack-ChromaDB%20%2B%20Ollama%20Mistral--7B-0D9488?style=flat-square" alt="Runtime" />
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-475569?style=flat-square" alt="License" /></a>
+  </p>
 </div>
 
 ---
