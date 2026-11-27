@@ -12,6 +12,8 @@
 
 ---
 
+![Hardened Local RAG Agent — 5-Layer Defense-in-Depth Blueprint](docs/images/architecture_blueprint.png)
+
 Offensive exploit suite and 5-layer defense-in-depth security gateway for a local **ChromaDB + Mistral-7B (`ollama`)** tool-calling RAG assistant—neutralizing direct role-override jailbreaks, indirect RAG vector poisoning, and autonomous HR database task hijacking while preserving `100%` benign retrieval and authorized tool utility.
 
 ![RAG Defense-in-Depth Benchmark](security_ops/images/rag_defense_in_depth_benchmark.png)
